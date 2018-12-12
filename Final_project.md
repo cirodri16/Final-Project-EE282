@@ -54,6 +54,18 @@ roary --group_limit 1000000 -e --mafft -cd 99 -i 50 -p 32 *.gff
 ##### The two output files from Roary I cared about:
 ***summary_statistics.txt:*** Number of genes in the core and accessory. A text file with an overview of the genes and how frequently they occur in the input isolates.
 
+***RESULT:***
+
+Core genes	(99% <= strains <= 100%)	438
+
+Soft core genes	(95% <= strains < 99%)	115
+
+Shell genes	(15% <= strains < 95%)	1802
+
+Cloud genes	(0% <= strains < 15%)	24550
+
+Total genes	(0% <= strains <= 100%)	26905
+
 ***gene_presence_absence.csv:*** The gene presence and absence spreadsheet lists each gene and which samples it is present in.
 From Roary page each column represents:
 1. The gene name, which is the most frequently occurring gene name from the sequences in the cluster. If there is no gene name, then it is given a generic unique name group_XXX.
