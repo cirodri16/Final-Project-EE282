@@ -10,6 +10,8 @@ File with sorted gene clusters: gene_presence_absence_sorted.txt
 
 File to use in RStudio: gene_presence_absence_sorted.fix.txt
 ***
+Pangenome results from Roary: summary_statistics.txt
+***
 Bash script used: script_accessory_genes_roary.sh
 ***
 Script used in RStudio: Rscript_accessory_genes.R
